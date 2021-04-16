@@ -927,7 +927,7 @@ class GAME
             
             
             localStorage.removeItem('Doodle');
-            localStorage.setItem('Doodle',`${this.bonusScore+this.score}`);
+            localStorage.setItem('Doodle',`${this.score}`);
            
         }
         this.playAgain=document.getElementById('playagain');
