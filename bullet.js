@@ -17,7 +17,7 @@ class Bullet{
         this.context.arc(this.xCentre-this.radius, this.yCentre-this.radius,BULLET_RADIUS, 0, 2 * Math.PI);
         if(status=='isEnemy')
         {
-        this.context.fillStyle='red';
+        this.context.fillStyle='green';
         }
         else if(status=='isDoodle')
         {
